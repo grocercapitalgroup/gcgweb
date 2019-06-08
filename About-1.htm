@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 - Grocery Capital Group</title>
+  <link href="css-family=Open+Sans-Roboto.css" tppabs="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="ContentPage.css" tppabs="http://www.grocercapital.com/Content/ContentPage.css" />
+  <link href="reset.css" tppabs="http://www.grocercapital.com/Content/reset.css" rel="stylesheet"/>
+<link href="bootstrap.css" tppabs="http://www.grocercapital.com/Content/bootstrap.css" rel="stylesheet"/>
+<link href="site.css" tppabs="http://www.grocercapital.com/Content/site.css" rel="stylesheet"/>
+
+  <script src="modernizr-2.8.3.js" tppabs="http://www.grocercapital.com/Scripts/modernizr-2.8.3.js"></script>
+
+  
+  <link rel="stylesheet" href="ContentPage.css" tppabs="http://www.grocercapital.com/Content/ContentPage.css" />
+
+    <style>
+      body {
+        font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif !important;
+      }
+    </style>
+</head>
+<body>
+  <div class="navbar navbar-fixed-top">
+    <div class="container header-container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="cn.htm" tppabs="http://www.grocercapital.com/cn" class="navbar-brand"><img src="logo.png" tppabs="http://www.grocercapital.com/Images/logo.png" alt="Grocer Capital Group" /></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a class="active" href="About-1.htm" tppabs="http://www.grocercapital.com/cn/Home/About">关于我们</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle " href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="nav-financialservice">
+            金融服务
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <!--li><a href="/cn/FinancialServices">金融服务</a></li-->
+            <li><a href="PurchaseFinancing-1.htm" tppabs="http://www.grocercapital.com/cn/FinancialServices/PurchaseFinancing">采购订单融资</a></li>
+            <li><a href="eCommerce-1.htm" tppabs="http://www.grocercapital.com/cn/FinancialServices/eCommerce">电子支付</a></li>
+            <li><a href="MezzanineFinancing-1.htm" tppabs="http://www.grocercapital.com/cn/FinancialServices/MezzanineFinancing">夹层融资</a></li>
+            <li><a href="ARFinancing-1.htm" tppabs="http://www.grocercapital.com/cn/FinancialServices/ARFinancing">应收账款融资</a></li>
+            <li><a href="VirtualPayment-1.htm" tppabs="http://www.grocercapital.com/cn/FinancialServices/VirtualPayment">虚拟卡支付</a></li>
+            <li><a href="JointVenturePartnershipStrategies-1.htm" tppabs="http://www.grocercapital.com/cn/FinancialServices/JointVenturePartnershipStrategies">合资合作战略</a>
+          </ul>
+        </li>
+        <li><a class="" href="Members-1.htm" tppabs="http://www.grocercapital.com/cn/Home/Members">团队管理</a></li>
+        
+      </ul>
+      
+  <ul class="nav navbar-nav navbar-right">
+    <li>
+      <!--a href="http://test.grocercapital.com/account/login" class="fa fa-user-circle-o fa-2x"></a-->
+      <a href="javascript:void(0)" data-toggle="popover" id="login" class="fa fa-user-circle-o fa-2x"></a>
+    </li>
+    <li class="hidden-sm">
+      <div class="btn-group">
+        <button type="button" class="form-control btn btn-default dropdown-toggle" data-toggle="dropdown">
+          中文 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="About-1.htm" tppabs="http://www.grocercapital.com/cn/Home/About">Chinese</a></li>
+          <li><a href="About-2.htm" tppabs="http://www.grocercapital.com/en/Home/About">English</a></li>
+          <li><a href="About-3.htm" tppabs="http://www.grocercapital.com/fr/Home/About">French</a></li>
+        </ul>
+      </div>
+      
+    </li>
+
+  </ul>
+
+<div id="login_page" class="sr-only">
+  <h3>Please login</h3>
+  <form class="form-group" action="http://www.grocercapital.com/Account/GCLogin" method="post" role="form" id="loginForm" autocomplete="on" onsubmit="return submitLogin(this);">
+    <div class="form-group">
+      <div class="input-group  input-group-lg">
+        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+        <input type="text" name="username" id="username" value="" class="form-control" placeholder="User Name" />
+      </div>
+      <div class="input-group  input-group-lg">
+        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+        <input type="password" name="password" id="pw" class="form-control" placeholder="Password / PIN" />
+      </div>
+
+      <div><input type="checkbox" name="remember" checked="checked" id="remember" /> <label for="remember"> Remember me</label></div>
+      <div class="g-recaptcha" data-sitekey="6Ldmix8UAAAAAGUUcSFJSEwLw953OwXyI_Bz4Mrn"></div>
+    </div>
+    
+    <input type="submit" class="btn btn-block btn-appstore" onclick="" id="login" value="Login" />
+    <div id="msg"></div>
+  </form>
+</div>
+    </div>
+      </div>
+  </div>
+  <div class="body-content">
+    
+
+<div class="content-page-head aboutus">
+  <h2 class="reverse">为什么GCG能够成为食品杂货行业互联网金融市场的龙头？</h2>
+  <div class="media-links">
+  <span class="follow-text">Follow GCG:</span>
+  <a class="media-link" href="https://twitter.com/GrocerCapital" target="blank"><i class="fa fa-twitter fa-2x"></i></a>
+  <a class="media-link" href="https://www.linkedin.com/company/grocer-capital-group" target="blank"><i class="fa fa-linkedin fa-2x"></i></a>
+  <a class="media-link" href="https://www.facebook.com/grocercapital/" target="blank"><i class="fa fa-facebook fa-2x"></i></a>
+  <a class="media-link" href="https://www.youtube.com/channel/UCL8DB3eFEX3FwvxBDGBNOyw" target="blank"><i class="fa fa-youtube-play fa-2x"></i></a>
+</div>
+
+</div>
+
+<div class="content-page-wrapper">
+  <section class="container">
+    <div class="row">
+      <!--h2 class="content-title<!--h2 class="content-title">为什么GCG能够成为食品杂货行业互联网金融市场的龙头？</h2-->
+      <p>GCG致力于打造食品及杂货采购批发领域的战略联盟，通过降低零售商的进货成本，提升供应商的销售份额。以高科技的互联网平台为手段，提升零售行业经营效率；更以强大的资金实力为杠杆，为零售商客户提供免费超长账期，真正提高零售商的盈利能力；对于供应商而言，则可以提前收到GCG垫付的货款，减少经营风险！ </p>
+      <h2 class="content-title">谁可以从GCG获利?</h2>
+      <p>
+        独立超市零售商、食品服务运营商、厂商（制造商），批发商，制造商，农民等
+      </p>
+    </div>
+  </section>
+
+
+
+  <section class="highlighted1">
+    <div class="container">
+      <div class="row">
+
+        <h2 class="content-title">GCG可以给零售商客户提供什么服务?</h2>
+        <div class="col-xs-12">
+          <ul class="list-unstyled">
+            <li>电子商务平台：从采购交易管理到电子支付，以及财务数据管理 </li>
+            <li>金融服务：对我们的零售商用户免费、更长的付款期。</li>
+            <li>采购服务：对我们的零售商用户提供更好的采购价格、更便捷的采购途径</li>
+          </ul>
+        </div>
+
+        <div class="item col-xs-12">
+          <video controls poster='/Images/Home/slide3.jpg' class="full-video" preload="none">
+            <source src="grocercapital_mandarin_member_042115 (H264).mp4.mpg" tppabs="http://www.grocercapital.com/Content/media/grocercapital_mandarin_member_042115 (H264).mp4" type="video/mp4">
+            <source src="grocercapital_mandarin_member_042115 (H264).mp4.mpg" tppabs="http://www.grocercapital.com/Content/media/grocercapital_mandarin_member_042115 (H264).mp4" type="video/ogg">
+            您的浏览器不支持视频标签.
+          </video>
+          <div class="video-mask"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <h2 class="content-title">零售商会员可获得的收益是什么?</h2>
+
+      <ul class="list-unstyled">
+        <li>大幅度降低采购成本和管理成本</li>
+        <li>大幅度增加账期时间（可以比目前普遍增加一倍）</li>
+        <li>免费获得及使用GCG先进的计算机管理系统，从而协调所有交易活动</li>
+        <li>商品采购实时数据跟踪记录</li>
+        <li>可以随时得到商品促销信息</li>
+        <li>提供了在不同的供应商处进行比价的信息来源</li>
+        <li>提高业务效率</li>
+        <li style="font-weight:bold;">现金流，现金流，现金流</li>
+      </ul>
+      <div class="col-xs-12 text-center">
+        <a href="Contact-1.htm" tppabs="http://www.grocercapital.com/cn/Home/Contact" class="btn btn-info btn-u-lg"> 变成GCG的会员 </a>
+      </div>
+    </div>
+  </section>
+  <section class="highlighted1">
+    <div class="container">
+      <div class="row">
+        <h2 class="content-title">GCG可以给供应商提供什么服务？</h2>
+        <div class="col-xs-12">
+          <ul class="list-unstyled">
+            <li>电子交易平台：更便捷高效的销售方式和销售数据管理等</li>
+            <li>销售服务：GCG庞大的零售商会员将为供应商增加巨大的销售额</li>
+            <li>金融服务：更安全、快捷的付款方式，无坏账，保证付款期限。丰富的金融产品支持，如保理融资、订单融资等</li>
+          </ul>
+        </div>
+
+        <div class="col-xs-12">
+          <video controls preload="none" poster='/Images/About us/vendor-cover.jpg' class="full-video">
+            <source src="http://www.grocercapital.com/Content/media/grocercapital_mandarin_vendor_042115 (H264).mp4" type="video/mp4">
+            <source src="http://www.grocercapital.com/Content/media/grocercapital_mandarin_vendor_042115 (H264).mp4" type="video/ogg">
+            您的浏览器不支持视频标签.
+          </video>
+          <div class="video-mask"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="content-title">供应商会员可获得的收益是什么?</h2>
+        <ul class="list-unstyled">
+          <li>可获得大幅度增长销售额的机会</li>
+          <li>安全、及时、稳定的应收账款回收，没有坏账</li>
+          <li>大幅度减少销售费用和管理费用</li>
+          <li>免费获得及使用GCG先进的计算机管理系统，从而协调所有交易活动</li>
+          <li>销售管理和实时跟踪记录</li>
+          <li>可随时免费发布商品促销信息</li>
+          <li>获得GCG丰富的金融产品服务</li>
+        </ul>
+      </div>
+      <!--div class="col-sm-6">
+        <img class="img-responsive" src="~/Images/About%20Us/4.png" alt="">
+      </div-->
+    </div>
+    <div class="col-xs-12 text-center">
+      <a href="Contact-1.htm" tppabs="http://www.grocercapital.com/cn/Home/Contact" class="btn btn-info btn-u-lg"> 变成GCG的供应商 </a>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="content-title">我们的承诺</h2>
+        <p>GCG集团是一家金融性质的互联网+企业，我们通过高科技互联网平台，以强大的资金为杠杆，将传统的食品批发、销售渠道整合起来，打造新的B2B商务平台。从资源到资本再到科技，GCG集团为所有会员提供超乎传统的价值服务，为客户保持良好的竞争力提供最佳的商务解决方案。通过我们的服务与创新，创造最理想的商业模式和环境。</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+
+    <footer>
+      <!--=== Footer Version 1 ===-->
+<div class="footer-v1">
+  <div class="footer ">
+   
+      <div class="container">
+        <div class="row">
+          <!-- About -->
+          <div class="col-md-4 md-margin-bottom-40">
+            <a href="cn.htm" tppabs="http://www.grocercapital.com/cn">
+              <img id="logofooter" src="logo1-white.png" tppabs="http://www.grocercapital.com/images/logo1-white.png" />
+            </a>
+            <p>
+              Grocer Capital Group（GCG）以先进技术打造的B2B在线平台，提供金融服务、大宗采购销售服务，是加拿大首屈一指的金融 “互联网 +” 企业。
+	GCG通过互联网，将传统的民生用品、食品等行业的零售商和供应商组成虚拟联盟；利用金融服务杠杆和连锁团购的经营方式，成为自愿连锁（VC）细分行业的龙头企业。
+
+            </p>
+
+          </div><!--/col-md-3-->
+          <!-- End About -->
+          <!-- Link List -->
+          <div class="col-md-4 md-margin-bottom-40">
+            <div class="headline">
+              有用的连接
+            </div>
+            <ul class="list-unstyled link-list">
+              <li>
+                <a href="https://www.facebook.com/grocercapital/" target="_blank">社交媒体</a><i class="fa fa-angle-right"></i>
+                
+              </li>
+              <li><a href="About-1.htm" tppabs="http://www.grocercapital.com/cn/Home/About">关于我们</a><i class="fa fa-angle-right"></i></li>
+              <li><a href="http://www.grocerbuying.com/buyinggroup" target="_blank">GrocerBuying.com</a><i class="fa fa-angle-right"></i></li>
+              <li><a href="FinancialServices-1.htm" tppabs="http://www.grocercapital.com/cn/FinancialServices">金融服务</a><i class="fa fa-angle-right"></i></li>
+              <li><a href="Members-1.htm" tppabs="http://www.grocercapital.com/cn/Home/Members">团队管理</a><i class="fa fa-angle-right"></i></li>
+              <li><a href="Contact-1.htm" tppabs="http://www.grocercapital.com/cn/Home/Contact">联系人</a><i class="fa fa-angle-right"></i></li>
+            </ul>
+          </div><!--/col-md-3-->
+          <!-- End Link List -->
+          <!-- Address -->
+          <div class="col-md-4">
+            <div class="headline">
+              联系我们
+            </div>
+            <address class="md-margin-bottom-40">
+              Suite 201, 175 Commerce Valley Drive West <br />
+              Thornhill, Ontario L3T 7P6<br />
+              电话: <a href="tel:1-905-597-7700">905 597 7700 </a><br />
+              传真: 905 597 7732 <br />
+              电子邮件: <a href="mailto:info@grocercapital.com" style="color: #00BFF3;">info@grocercapital.com</a><br />
+              <a href="cn.htm" tppabs="http://www.grocercapital.com/cn">www.grocercapital.com</a>
+            </address>
+
+          </div><!--/col-md-3-->
+          <!-- End Address -->
+        </div>
+      </div>
+      <!--div class="social-media">
+        <span class="follow-us">跟随我们</span>
+        <span class="footer-facebook">
+          <a href="https://www.facebook.com/grocercapital/" target="_blank"><img src="~/Images/1px.png" alt="跟随我们" /></a>
+        </span>
+        <span class="footer-twitter">
+          <a href="https://twitter.com/GrocerCapital" target="_blank"><img src="~/Images/1px.png" alt="跟随我们" /></a>
+        </span>
+        <span class="footer-blog">
+          <a href="~/BlogGCG" target="_blank"><img src="~/Images/1px.png" alt="跟随我们" /></a>
+        </span>
+      </div-->
+  </div><!--/footer-->
+
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2019 版权所有
+            <a data-toggle="modal" data-target="#myModal" style="color:#00BFF3; cursor: pointer;">Grocer Capital’s 隐私协议</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div><!--/copyright-->
+</div>
+<!--=== End Footer Version 1 ===-->
+
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"> Grocer Capital’s 隐私协议</h4>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p>
+            隐私政策最后修改于2015年4月8日。
+杂货店资本集团经营http://www.grocercapital.com。本页面告知我们有关收集，使用和披露个人信息，我们使用您的个人信息仅用于给您提供方便来改进网站。通过使用网站，您同意收集和使用信息，根据这项政策
+.<br />
+
+          </p>
+        </div>
+        <div>
+          <b>信息收集和使用</b>
+          <p>
+            在使用我们的网站，我们可能会要求您向我们提供了可用于联系或识别您的某些个人身份信息。个人身份信息可能包括，但不限于您的个人信息.
+          </p>
+        </div>
+        <div>
+          <b>日志数据</b>
+          <p>
+            像许多网站经营者，我们收集的信息是通过您的浏览器发送，在每当您访问我们网站的时候。该日志数据可能包括信息，如您计算机的互联网协议（“IP”）地址，浏览器类型，浏览器版本，我们的网站，您访问过的页面，时间以及您访问的日期，和其他的时间 统计
+          </p>
+        </div>
+        <div>
+          <b>cookie</b>
+          <p>
+            Cookie是用少量的数据，其可包括一个匿名的唯一能识别符的文件。 cookie发送到从网站浏览器并存储在计算机的硬盘上。如同许多网站，我们使用“cookies”来收集信息。您可以指示您的浏览器拒绝所有cookie或指明何时一个cookie被发送。但是，如果你不接受cookies，您可能无法使用我们网站的某些部分
+          </p>
+        </div>
+        <div>
+          <b>安全</b>
+          <p>
+            您的个人信息的安全性对我们很重要，但请记住，通过因特网传输，或电子存储方法，没有一种方法是100％安全的。尽管我们努力使用商业上可接受的方式来保护您的个人信息，我们无法保证其绝对安全
+          </p>
+        </div>
+        <div>
+          <b>联系我们</b>
+          <p>
+            如果您有任何关于隐私协议的问题，请与我们联系.
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">关闭</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+    </footer>
+  </div>
+
+  <script src="jquery-3.1.1.js" tppabs="http://www.grocercapital.com/Scripts/jquery-3.1.1.js"></script>
+<script src="jquery.form.min.js" tppabs="http://www.grocercapital.com/Scripts/plugins/jquery.form.min.js"></script>
+
+  <script src="bootstrap.js" tppabs="http://www.grocercapital.com/Scripts/bootstrap.js"></script>
+<script src="respond.js" tppabs="http://www.grocercapital.com/Scripts/respond.js"></script>
+
+  <script src="api.js" tppabs="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script type="text/javascript" src="main.js" tppabs="http://www.grocercapital.com/Scripts/site/main.js"></script>
+  <script type="text/javascript" src="back-to-top.js" tppabs="http://www.grocercapital.com/Scripts/back-to-top.js"></script>
+  
+  <script>
+    $('.full-video').parent().click(function () {
+      if ($(this).children(".full-video").get(0).paused) {
+        $(this).children(".full-video").get(0).play();
+        $(this).children(".video-mask").fadeOut();
+        console.log("play")
+      } else {
+        $(this).children(".full-video").get(0).pause();
+        $(this).children(".video-mask").fadeIn();
+        console.log("pause")
+      }
+    });
+  </script>
+
+</body>
+</html>
